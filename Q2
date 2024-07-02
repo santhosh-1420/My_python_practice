@@ -1,0 +1,18 @@
+MECON Limited was a public-sector undertaking firm under the ministry of steel where Dhoni's father had worked for. It was at the Stadium where MS Dhoni grew up playing.
+
+The Chairman of MECON decided to renovate and improvise the facilities in the Stadium and to place a NEON display board at the entry of the Stadium that carried the Stadium's name as "MECON Stadium". Write a program to display the Stadium name in different lines.
+
+Input Format:
+There is no Input
+
+Output Format:
+Print the name "MECON Stadium" in different lines.
+Refer sample Input and Output for formatting specifications
+
+Sample Output:
+MECON
+Stadium
+
+Solution:
+
+print("MECON\nStadium")
