@@ -1,0 +1,20 @@
+M.S. Dhoni wasn't born with a silver spoon. He hailed from a typical Indian middle class family at Ranchi, Bihar. His father Pan Singh Dhoni, was a pump operator at the MECON Limited, a public- sector engineering firm and Dhoni grew up in a single-bedroom apartment adjacent to the City's MECON Stadium. Write a program to display the name of the company where Dhoni's father was working for.
+
+Input and Output Format:
+
+Refer sample input and output for formatting specifications.
+
+[All text in bold corresponds to input and the rest corresponds to output]
+
+Sample Input and Output:
+
+Company Name:
+
+MECON Limited
+
+Dhoni's father worked in MECON Limited
+
+
+Saonthosh:
+a=input("Company Name:\n")
+print("Dhoni's father worked in",a)
