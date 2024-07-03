@@ -1,0 +1,39 @@
+It is the 1st ODI of the India - New Zealand ODI Series. India won the toss and opted to bowl. New Zealand batsmen exhibited a slow start as there were undone by Indian pace, however Tom Latham and Tim Southee displayed a creditable performance, which helped NZS put up a target of 191 runs to India.
+
+The run rate of the batting powerplay overs (Overs 1 to 10) was considered to be X and the run rate in the remaining overs (Overs 11 to 50) was Y. Write a program to estimate the run rate of the NZ innings.
+
+Input Format:
+
+First line of the input contains a float value that corresponds to the run rate of the powerplay overs.
+
+Second line of the input contains a float value that corresponds to the run rate of the remaining overs.
+
+Output Format:
+
+Output should display a float value that returns the run rate of NZS innings. Display the float value correct to 2 decimal places
+
+Note: Refer the sample input & output for print statement. Bold highlighted is the output value.
+
+Sample Input and Output1:
+
+7.5
+
+5.6
+
+5.98
+
+Sample Input and Output2:
+
+5.0
+
+7.8
+
+7.24
+
+Solution:
+x=float(input())
+y=float(input())
+pp=x*10
+t=y*40
+tot=pp+t
+print("%.2f"%(tot/50))
