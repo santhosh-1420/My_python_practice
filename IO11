@@ -1,0 +1,50 @@
+When Dhoni expressed his interest to play for the school cricket team at the age of 11, Pan Singh insisted Dhoni that he could play cricket only if he scores well in his exams. Dhoni did justice to his father's words by fairing at Class X Board exams with a creditable percentage. Write a program to print Dhoni's scores in the subjects English, Language, Science and Social at the Class X Board exams.
+
+Input Format:
+
+Four integer inputs that corresponds to the marks scored in English, Hindi, Science, Social by Dhoni
+
+Output Format:
+
+Print Dhoni's scores in the subjects English, Language, Science and Social at the Class X Board exams.
+
+Refer sample input and Output for formatting specifications
+
+[All the text in bold corresponds to the input)
+
+Sample Input and Output:
+
+Enter the marks scored
+
+English:
+
+50
+
+Hindi:
+
+65
+
+Science:
+
+60
+
+Social:
+
+57
+
+MS.Dhoni Class X board exams score details
+
+English: 50
+
+Hindi: 65
+
+Science: 60
+
+Social:57
+
+Solution:
+x=input("English:\n")
+y=input("Hindi:\n")
+z=input("Science:\n")
+a=input("Social:\n")
+print("MS.Dhoni Class X board exams score details""\nEnglish:",x,"\nHindi:",y,"\nScience:",z,"\nSocial:",a)
