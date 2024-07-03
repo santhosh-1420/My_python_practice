@@ -1,0 +1,35 @@
+Flood Relief Contribution
+
+Tamil Nadu was battling one if its worst floods in a century last December, as several parts of the state have been submerged and cut off from essential supplies. It was heartening that the Cricketers came forward to contribute for the cause of Floods and it was decided amongst the team that the Senior players donate 50% of their salary and junior players to donate 40% against the flood relief measures.
+
+Assume there are 6 Senior players and 5 Junior players. The salary of Senior players is Rs.X and that of junior players is Rs.Y. Find the total contribution from the Cricket team towards the Floods.
+
+Input Format:
+First line of the input is an integer "X" that specifies the Salary of the Senior players in rupees.
+Second line is an integer "y" that specifies that specifies the Salary of the Junior players in rupees.
+
+Output Format:
+Output should display a float that gives the total contribution of money in rupees from the Cricket team. The float value should be displayed correct to 2 decimal places.
+
+Note: Bold highlighted on is the output value.
+
+Sample Input and Output1:
+45000
+40000
+215000.00
+
+Sample Input and Output2:
+78000
+60000
+354000.00
+
+Solution:
+
+a=int(input())
+b=int(input())
+s=(a*6)
+j=(b*5)
+w=s*50/100
+e=j*40/100
+q=(w+e)
+print("%.2f" %q)
