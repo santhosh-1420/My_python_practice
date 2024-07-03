@@ -1,0 +1,19 @@
+Keshab Ranjan Banerjee, a senior sports teacher at Dhoni's Jawahar Vidhya Mandhir School, spotted Dhoni when he was goalkeeping for a football match.
+
+He got impressed by Dhoni's saves and thought of trying him out behind the stumps for the school's cricket team. In his first meet with Dhoni, Banerjee asked him his name and the games that Dhoni loved to play. Write a program to display Dhoni's reply.
+
+Input and Output Format:
+Refer sample input and output for formatting specifications.
+All text in bold corresponds to input and the rest corresponds to output.
+
+Sample Input and Output:
+Name:
+Dhoni
+Game:
+Football
+My name is Dhoni and I love to play Football
+
+Solution:
+a=input("Name:\n")
+b=input("Game:\n")
+print("My name is",a,"and I love to play",b)
