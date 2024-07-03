@@ -1,0 +1,26 @@
+Team Formation
+
+Dhoni was natural at sports since his childhood and from the time his sports teacher identified a cricketer in him, he pursued cricket as his passion.
+
+Dhoni lived in the quarters opposite to the Mecon grounds and often sneaked with his friends into the ground to play cricket. On a sunny day when they were off to play, there were "n" boys along with Dhoni and it was decided to split the boys into teams of size 11. Anyone left out will take care of Umpiring as Refrees. Given the number of boys at play "n", find the Team count and the count of Refrees.
+
+Input Format:
+First line of the input contains an integer that corresponds to the number of boys at play "n".
+
+Output Format:
+Output should display in the first line an integer that returns the count of total teams formed from "n" boys.
+In the second line, print an integer that contains the count of the Refrees.
+
+Sample Input and Output:
+56
+5
+1
+
+Note: Bold highlighted is the output
+
+Solution:
+a=int(input())
+b=a//11
+c=a%11
+print(b)
+print(c)
