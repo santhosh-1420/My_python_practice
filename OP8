@@ -1,0 +1,39 @@
+Tickets
+
+The World Cup Finals was on April 2, 2011 and the expectations were set high upon the Men in Blue as they had made it to the Finals after 28 years. The Wankhede Stadium witnessed thousands of people queued up for hours to collect their tickets. Tickets for the match were selling for over ten times their normal selling price on the black market.
+
+There were two types of tickets - Class A (Upper Tier) and Class B(Lower Tier). "N" tickets were sold totally. Class A tickets cost Rs.X and Class B tickets cost Rs.Y. The total ticket amount collected at the end of the day is Rs. Z. Find the number of Class A and Class B tickets sold.
+
+Input Format:
+First line of the input is an integer that specifies the number of tickets sold totally "N".
+Second line is an integer that specifies the cost of Class A tickets in rupees.
+Third line is an integer that specifies the cost of Class B tickets in rupees.
+Fourth line is an integer that specifies the total ticket amount collected end of day in rupees.
+
+Output Format:
+Output should display in the first line an integer that returns the count of Class A tickets sold.
+In the second line, print an integer that that returns the count of Class B tickets sold.
+
+Sample Input and Output 1:
+398
+3000
+2000
+1096000
+300
+98
+
+Sample Input and Output 2:
+156
+2000
+3000
+390000
+78
+78a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+x=(d-c*a)//(b-c)
+y=a-x
+print(x,b)
+
+Solution:
