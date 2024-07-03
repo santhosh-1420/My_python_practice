@@ -1,0 +1,42 @@
+The World Cup Finals was on April 2, 2011 and the expectations were set high upon the Men in Blue as they had made it to the Finals after 28 years. The Wankhede Stadium witnessed thousands of people queued up for hours to collect their tickets. There were two types of tickets - Class A (Upper Tier) and Class B(Lower Tier).
+
+
+
+There were "X" Class A tickets that has been sold and this is five more than four times the number of class B tickets sold. Find the number of Class B tickets that has been sold on the day.
+
+
+
+Input Format:
+
+First line of the input is an integer that specifies the number of Class A tickets sold "X".
+
+
+
+Output Format.
+
+Output should display in the first line an integer that gives the count of Class B tickets sold.
+
+
+
+Sample Input 1:
+
+753
+
+Sample Output 2:
+
+187
+
+
+
+Sample Input 2:
+
+3413
+
+Sample Output 2:
+
+852
+
+Solution:
+x=int(input())
+y=(x-5)//4
+print(y)
